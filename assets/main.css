@@ -1584,7 +1584,7 @@ i {
 }
 
 .banner-thumb {
-    max-width: 400px;
+    max-width: 450px;
 }
 
 @media (max-width: 1399px) {
@@ -2908,7 +2908,7 @@ select.form--control option:hover {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../assets/shape.png);
+/*    background: url(../assets/shape.png);*/
     border-radius: 10px;
     z-index: -1;
     overflow: hidden;
@@ -4666,4 +4666,9 @@ iframe {
       /*inner page css*/
       .inner-text{
         margin: 20px auto;
+      }
+
+      .banner-img{
+        width:100%;
+        max-width: 600px;
       }
